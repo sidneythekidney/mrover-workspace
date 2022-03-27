@@ -126,3 +126,8 @@ Subscriber: jetson/ra_kinematics
 Message: [ArmAdjustments.lcm](https://github.com/umrover/mrover-workspace/blob/master/rover_msgs/ArmAdjustments.lcm) \
 Publisher: base_station/gui \
 Subscriber: jetson/ra_kinematics
+
+#### Reverse Toggle \[Subscriber\] "/teleop_reverse_drive" ####
+Message: [ArmAdjustments.lcm](https://github.com/umrover/mrover-workspace/blob/master/rover_msgs/ToggleReverse.lcm) \
+Publisher: base_station/gui \
+Subscriber: jetson/ra_kinematics
